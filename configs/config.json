@@ -1,0 +1,46 @@
+{
+  "router_port": 9998,
+  "router_ip": "127.0.0.1",
+  "router_allow_ips": "127.0.0.1",
+  "db_game": {
+    "pool_name": "yuntu",
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "Chunhe0313!@",
+    "database": "yuntu"
+  },
+  "db_logs": {
+    "pool_name": "logs",
+    "use_dict_cursor": false,
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "chunheAz!@123",
+    "database": "yuntu_logs"
+  },
+  "redis_web": {
+    "host": "127.0.0.1",
+    "port": "6379",
+    "db": 0,
+    "password": "",
+    "socket_timeout": 5
+  },
+  "redis_game": {
+    "host": "127.0.0.1",
+    "port": "6379",
+    "db": 0,
+    "password": "",
+    "socket_timeout": 5
+  },
+  "mongo": {
+    "alias": "mongo",
+    "db": "yuntu",
+    "host": "mongodb://localhost:27017",
+    "username": "yuntu",
+    "password": "yuntu123456"
+}
+
+
+
+}
